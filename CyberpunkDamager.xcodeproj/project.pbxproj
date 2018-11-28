@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7F4EE321AE36C100BA8D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE221AE36C100BA8D08 /* AppDelegate.swift */; };
+		2F7F4EE521AE36C100BA8D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE421AE36C100BA8D08 /* ViewController.swift */; };
+		2F7F4EE821AE36C100BA8D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE621AE36C100BA8D08 /* Main.storyboard */; };
+		2F7F4EEA21AE36C300BA8D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE921AE36C300BA8D08 /* Assets.xcassets */; };
+		2F7F4EED21AE36C300BA8D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F4EEB21AE36C300BA8D08 /* LaunchScreen.storyboard */; };
+		2F7F4EF821AE36C300BA8D08 /* CyberpunkDamagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4EF721AE36C300BA8D08 /* CyberpunkDamagerTests.swift */; };
+		2F7F4F0321AE36C300BA8D08 /* CyberpunkDamagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4F0221AE36C300BA8D08 /* CyberpunkDamagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F7F4EF421AE36C300BA8D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7F4ED721AE36C100BA8D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7F4EDE21AE36C100BA8D08;
+			remoteInfo = CyberpunkDamager;
+		};
+		2F7F4EFF21AE36C300BA8D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7F4ED721AE36C100BA8D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7F4EDE21AE36C100BA8D08;
+			remoteInfo = CyberpunkDamager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F7F4EDF21AE36C100BA8D08 /* CyberpunkDamager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberpunkDamager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7F4EE221AE36C100BA8D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F7F4EE421AE36C100BA8D08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F7F4EE721AE36C100BA8D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F7F4EE921AE36C300BA8D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F7F4EEC21AE36C300BA8D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F7F4EEE21AE36C300BA8D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7F4EF321AE36C300BA8D08 /* CyberpunkDamagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberpunkDamagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7F4EF721AE36C300BA8D08 /* CyberpunkDamagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberpunkDamagerTests.swift; sourceTree = "<group>"; };
+		2F7F4EF921AE36C300BA8D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7F4EFE21AE36C300BA8D08 /* CyberpunkDamagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberpunkDamagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7F4F0221AE36C300BA8D08 /* CyberpunkDamagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberpunkDamagerUITests.swift; sourceTree = "<group>"; };
+		2F7F4F0421AE36C300BA8D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7F4EDC21AE36C100BA8D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7F4EF021AE36C300BA8D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7F4EFB21AE36C300BA8D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7F4ED621AE36C100BA8D08 = {
+			isa = PBXGroup;
+			children = (
+				2F7F4EE121AE36C100BA8D08 /* CyberpunkDamager */,
+				2F7F4EF621AE36C300BA8D08 /* CyberpunkDamagerTests */,
+				2F7F4F0121AE36C300BA8D08 /* CyberpunkDamagerUITests */,
+				2F7F4EE021AE36C100BA8D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F7F4EE021AE36C100BA8D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F7F4EDF21AE36C100BA8D08 /* CyberpunkDamager.app */,
+				2F7F4EF321AE36C300BA8D08 /* CyberpunkDamagerTests.xctest */,
+				2F7F4EFE21AE36C300BA8D08 /* CyberpunkDamagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F7F4EE121AE36C100BA8D08 /* CyberpunkDamager */ = {
+			isa = PBXGroup;
+			children = (
+				2F7F4EE221AE36C100BA8D08 /* AppDelegate.swift */,
+				2F7F4EE421AE36C100BA8D08 /* ViewController.swift */,
+				2F7F4EE621AE36C100BA8D08 /* Main.storyboard */,
+				2F7F4EE921AE36C300BA8D08 /* Assets.xcassets */,
+				2F7F4EEB21AE36C300BA8D08 /* LaunchScreen.storyboard */,
+				2F7F4EEE21AE36C300BA8D08 /* Info.plist */,
+			);
+			path = CyberpunkDamager;
+			sourceTree = "<group>";
+		};
+		2F7F4EF621AE36C300BA8D08 /* CyberpunkDamagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7F4EF721AE36C300BA8D08 /* CyberpunkDamagerTests.swift */,
+				2F7F4EF921AE36C300BA8D08 /* Info.plist */,
+			);
+			path = CyberpunkDamagerTests;
+			sourceTree = "<group>";
+		};
+		2F7F4F0121AE36C300BA8D08 /* CyberpunkDamagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7F4F0221AE36C300BA8D08 /* CyberpunkDamagerUITests.swift */,
+				2F7F4F0421AE36C300BA8D08 /* Info.plist */,
+			);
+			path = CyberpunkDamagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F7F4EDE21AE36C100BA8D08 /* CyberpunkDamager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7F4F0721AE36C300BA8D08 /* Build configuration list for PBXNativeTarget "CyberpunkDamager" */;
+			buildPhases = (
+				2F7F4EDB21AE36C100BA8D08 /* Sources */,
+				2F7F4EDC21AE36C100BA8D08 /* Frameworks */,
+				2F7F4EDD21AE36C100BA8D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyberpunkDamager;
+			productName = CyberpunkDamager;
+			productReference = 2F7F4EDF21AE36C100BA8D08 /* CyberpunkDamager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F7F4EF221AE36C300BA8D08 /* CyberpunkDamagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7F4F0A21AE36C300BA8D08 /* Build configuration list for PBXNativeTarget "CyberpunkDamagerTests" */;
+			buildPhases = (
+				2F7F4EEF21AE36C300BA8D08 /* Sources */,
+				2F7F4EF021AE36C300BA8D08 /* Frameworks */,
+				2F7F4EF121AE36C300BA8D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F7F4EF521AE36C300BA8D08 /* PBXTargetDependency */,
+			);
+			name = CyberpunkDamagerTests;
+			productName = CyberpunkDamagerTests;
+			productReference = 2F7F4EF321AE36C300BA8D08 /* CyberpunkDamagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F7F4EFD21AE36C300BA8D08 /* CyberpunkDamagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7F4F0D21AE36C300BA8D08 /* Build configuration list for PBXNativeTarget "CyberpunkDamagerUITests" */;
+			buildPhases = (
+				2F7F4EFA21AE36C300BA8D08 /* Sources */,
+				2F7F4EFB21AE36C300BA8D08 /* Frameworks */,
+				2F7F4EFC21AE36C300BA8D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F7F4F0021AE36C300BA8D08 /* PBXTargetDependency */,
+			);
+			name = CyberpunkDamagerUITests;
+			productName = CyberpunkDamagerUITests;
+			productReference = 2F7F4EFE21AE36C300BA8D08 /* CyberpunkDamagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F7F4ED721AE36C100BA8D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CyleSoft;
+				TargetAttributes = {
+					2F7F4EDE21AE36C100BA8D08 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2F7F4EF221AE36C300BA8D08 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F7F4EDE21AE36C100BA8D08;
+					};
+					2F7F4EFD21AE36C300BA8D08 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F7F4EDE21AE36C100BA8D08;
+					};
+				};
+			};
+			buildConfigurationList = 2F7F4EDA21AE36C100BA8D08 /* Build configuration list for PBXProject "CyberpunkDamager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F7F4ED621AE36C100BA8D08;
+			productRefGroup = 2F7F4EE021AE36C100BA8D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7F4EDE21AE36C100BA8D08 /* CyberpunkDamager */,
+				2F7F4EF221AE36C300BA8D08 /* CyberpunkDamagerTests */,
+				2F7F4EFD21AE36C300BA8D08 /* CyberpunkDamagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7F4EDD21AE36C100BA8D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7F4EED21AE36C300BA8D08 /* LaunchScreen.storyboard in Resources */,
+				2F7F4EEA21AE36C300BA8D08 /* Assets.xcassets in Resources */,
+				2F7F4EE821AE36C100BA8D08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7F4EF121AE36C300BA8D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7F4EFC21AE36C300BA8D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F7F4EDB21AE36C100BA8D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7F4EE521AE36C100BA8D08 /* ViewController.swift in Sources */,
+				2F7F4EE321AE36C100BA8D08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7F4EEF21AE36C300BA8D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7F4EF821AE36C300BA8D08 /* CyberpunkDamagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7F4EFA21AE36C300BA8D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7F4F0321AE36C300BA8D08 /* CyberpunkDamagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F7F4EF521AE36C300BA8D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7F4EDE21AE36C100BA8D08 /* CyberpunkDamager */;
+			targetProxy = 2F7F4EF421AE36C300BA8D08 /* PBXContainerItemProxy */;
+		};
+		2F7F4F0021AE36C300BA8D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7F4EDE21AE36C100BA8D08 /* CyberpunkDamager */;
+			targetProxy = 2F7F4EFF21AE36C300BA8D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F7F4EE621AE36C100BA8D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7F4EE721AE36C100BA8D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F7F4EEB21AE36C300BA8D08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7F4EEC21AE36C300BA8D08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F7F4F0521AE36C300BA8D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F7F4F0621AE36C300BA8D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F7F4F0821AE36C300BA8D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDC26KSRF6;
+				INFOPLIST_FILE = CyberpunkDamager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cylesoft.CyberpunkDamager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F7F4F0921AE36C300BA8D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDC26KSRF6;
+				INFOPLIST_FILE = CyberpunkDamager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cylesoft.CyberpunkDamager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F7F4F0B21AE36C300BA8D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDC26KSRF6;
+				INFOPLIST_FILE = CyberpunkDamagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cylesoft.CyberpunkDamagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberpunkDamager.app/CyberpunkDamager";
+			};
+			name = Debug;
+		};
+		2F7F4F0C21AE36C300BA8D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDC26KSRF6;
+				INFOPLIST_FILE = CyberpunkDamagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cylesoft.CyberpunkDamagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyberpunkDamager.app/CyberpunkDamager";
+			};
+			name = Release;
+		};
+		2F7F4F0E21AE36C300BA8D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDC26KSRF6;
+				INFOPLIST_FILE = CyberpunkDamagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cylesoft.CyberpunkDamagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CyberpunkDamager;
+			};
+			name = Debug;
+		};
+		2F7F4F0F21AE36C300BA8D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDC26KSRF6;
+				INFOPLIST_FILE = CyberpunkDamagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cylesoft.CyberpunkDamagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CyberpunkDamager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7F4EDA21AE36C100BA8D08 /* Build configuration list for PBXProject "CyberpunkDamager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7F4F0521AE36C300BA8D08 /* Debug */,
+				2F7F4F0621AE36C300BA8D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7F4F0721AE36C300BA8D08 /* Build configuration list for PBXNativeTarget "CyberpunkDamager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7F4F0821AE36C300BA8D08 /* Debug */,
+				2F7F4F0921AE36C300BA8D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7F4F0A21AE36C300BA8D08 /* Build configuration list for PBXNativeTarget "CyberpunkDamagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7F4F0B21AE36C300BA8D08 /* Debug */,
+				2F7F4F0C21AE36C300BA8D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7F4F0D21AE36C300BA8D08 /* Build configuration list for PBXNativeTarget "CyberpunkDamagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7F4F0E21AE36C300BA8D08 /* Debug */,
+				2F7F4F0F21AE36C300BA8D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F7F4ED721AE36C100BA8D08 /* Project object */;
+}
