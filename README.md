@@ -6,5 +6,5 @@ You input the various relevant stats for your gun, specify spray 'n pray or call
 
 Currently only laid out for the iPhone X/XS.
 
-![screenshots/main-screen.png]
-![screenshots/damage-screen.png]
+![main screen](screenshots/main-screen.png)
+![damage screen](screenshots/damage-screen.png)
