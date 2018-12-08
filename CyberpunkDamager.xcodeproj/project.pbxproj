@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2F7F4EE321AE36C100BA8D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE221AE36C100BA8D08 /* AppDelegate.swift */; };
-		2F7F4EE521AE36C100BA8D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE421AE36C100BA8D08 /* ViewController.swift */; };
+		2F7F4EE521AE36C100BA8D08 /* InputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE421AE36C100BA8D08 /* InputsViewController.swift */; };
 		2F7F4EE821AE36C100BA8D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE621AE36C100BA8D08 /* Main.storyboard */; };
 		2F7F4EEA21AE36C300BA8D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F4EE921AE36C300BA8D08 /* Assets.xcassets */; };
 		2F7F4EED21AE36C300BA8D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F4EEB21AE36C300BA8D08 /* LaunchScreen.storyboard */; };
 		2F7F4EF821AE36C300BA8D08 /* CyberpunkDamagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4EF721AE36C300BA8D08 /* CyberpunkDamagerTests.swift */; };
 		2F7F4F0321AE36C300BA8D08 /* CyberpunkDamagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4F0221AE36C300BA8D08 /* CyberpunkDamagerUITests.swift */; };
+		2F7F4F1121AE3B3800BA8D08 /* DamageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4F1021AE3B3800BA8D08 /* DamageHelper.swift */; };
+		2F7F4F1321AE64D800BA8D08 /* OutputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F4F1221AE64D800BA8D08 /* OutputsViewController.swift */; };
+		2F7F4F1521AE6AB000BA8D08 /* cyberpunk damage dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F4F1421AE6AB000BA8D08 /* cyberpunk damage dummy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2F7F4EDF21AE36C100BA8D08 /* CyberpunkDamager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberpunkDamager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7F4EE221AE36C100BA8D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F7F4EE421AE36C100BA8D08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F7F4EE421AE36C100BA8D08 /* InputsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputsViewController.swift; sourceTree = "<group>"; };
 		2F7F4EE721AE36C100BA8D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F7F4EE921AE36C300BA8D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7F4EEC21AE36C300BA8D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,10 @@
 		2F7F4EFE21AE36C300BA8D08 /* CyberpunkDamagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberpunkDamagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7F4F0221AE36C300BA8D08 /* CyberpunkDamagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberpunkDamagerUITests.swift; sourceTree = "<group>"; };
 		2F7F4F0421AE36C300BA8D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7F4F1021AE3B3800BA8D08 /* DamageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageHelper.swift; sourceTree = "<group>"; };
+		2F7F4F1221AE64D800BA8D08 /* OutputsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputsViewController.swift; sourceTree = "<group>"; };
+		2F7F4F1421AE6AB000BA8D08 /* cyberpunk damage dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cyberpunk damage dummy.png"; path = "../../../Downloads/cyberpunk damage dummy.png"; sourceTree = "<group>"; };
+		2F7F4F1621AE6AB300BA8D08 /* cyberpunk damage dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cyberpunk damage dummy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 		2F7F4ED621AE36C100BA8D08 = {
 			isa = PBXGroup;
 			children = (
+				2F7F4F1421AE6AB000BA8D08 /* cyberpunk damage dummy.png */,
 				2F7F4EE121AE36C100BA8D08 /* CyberpunkDamager */,
 				2F7F4EF621AE36C300BA8D08 /* CyberpunkDamagerTests */,
 				2F7F4F0121AE36C300BA8D08 /* CyberpunkDamagerUITests */,
@@ -97,12 +105,15 @@
 		2F7F4EE121AE36C100BA8D08 /* CyberpunkDamager */ = {
 			isa = PBXGroup;
 			children = (
+				2F7F4F1621AE6AB300BA8D08 /* cyberpunk damage dummy.png */,
 				2F7F4EE221AE36C100BA8D08 /* AppDelegate.swift */,
-				2F7F4EE421AE36C100BA8D08 /* ViewController.swift */,
+				2F7F4EE421AE36C100BA8D08 /* InputsViewController.swift */,
+				2F7F4F1021AE3B3800BA8D08 /* DamageHelper.swift */,
 				2F7F4EE621AE36C100BA8D08 /* Main.storyboard */,
 				2F7F4EE921AE36C300BA8D08 /* Assets.xcassets */,
 				2F7F4EEB21AE36C300BA8D08 /* LaunchScreen.storyboard */,
 				2F7F4EEE21AE36C300BA8D08 /* Info.plist */,
+				2F7F4F1221AE64D800BA8D08 /* OutputsViewController.swift */,
 			);
 			path = CyberpunkDamager;
 			sourceTree = "<group>";
@@ -232,6 +243,7 @@
 				2F7F4EED21AE36C300BA8D08 /* LaunchScreen.storyboard in Resources */,
 				2F7F4EEA21AE36C300BA8D08 /* Assets.xcassets in Resources */,
 				2F7F4EE821AE36C100BA8D08 /* Main.storyboard in Resources */,
+				2F7F4F1521AE6AB000BA8D08 /* cyberpunk damage dummy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F7F4EE521AE36C100BA8D08 /* ViewController.swift in Sources */,
+				2F7F4EE521AE36C100BA8D08 /* InputsViewController.swift in Sources */,
+				2F7F4F1321AE64D800BA8D08 /* OutputsViewController.swift in Sources */,
+				2F7F4F1121AE3B3800BA8D08 /* DamageHelper.swift in Sources */,
 				2F7F4EE321AE36C100BA8D08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
